@@ -20,7 +20,7 @@ spec:
         - key: kubernetes.io/hostname
           operator: In
           values:
-          - peceecsis143
+          - worker-node-name 
 ---
 apiVersion: v1
 kind: PersistentVolume
@@ -44,4 +44,4 @@ spec:
         - key: kubernetes.io/hostname
           operator: In
           values:
-          - peceecsis143
+          - worker-node-name
